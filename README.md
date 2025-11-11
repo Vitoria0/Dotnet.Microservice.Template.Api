@@ -2,7 +2,7 @@
 
 Template base de projeto .NET Core seguindo arquitetura DDD (Domain-Driven Design) e Clean Architecture, preparado para microserviços escaláveis.
 
-## 🚀 Tecnologias
+## Tecnologias
 
 - **.NET 8.0**
 - **Entity Framework Core** - ORM para acesso a dados
@@ -14,7 +14,7 @@ Template base de projeto .NET Core seguindo arquitetura DDD (Domain-Driven Desig
 - **Moq** - Framework de mocking para testes
 - **Docker** - Containerização
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 MicroserviceTemplate/
@@ -30,7 +30,7 @@ MicroserviceTemplate/
 └── README.md
 ```
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 O projeto segue os princípios de **DDD** e **Clean Architecture**:
 
@@ -47,13 +47,13 @@ O projeto segue os princípios de **DDD** e **Clean Architecture**:
 - **Dependency Injection**
 - **Validation Pipeline** com FluentValidation
 
-## 🛠️ Pré-requisitos
+## Pré-requisitos
 
 - .NET 8.0 SDK
 - Docker Desktop (para executar com Docker)
 - SQL Server (ou usar o container Docker)
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Opção 1: Executar com Docker Compose
 
@@ -118,7 +118,7 @@ O projeto inclui um exemplo completo de CRUD para a entidade `Product`:
 }
 ```
 
-## 🧪 Testes
+## Testes
 
 Execute os testes com:
 
@@ -132,7 +132,7 @@ Os testes incluem:
 - Testes de validadores
 - Testes de queries
 
-## 📦 Docker
+## Docker
 
 ### Build da imagem
 
@@ -146,7 +146,7 @@ docker build -t microservice-template-api .
 docker run -p 5000:80 microservice-template-api
 ```
 
-## 🔧 Configurações
+## Configurações
 
 ### Logging
 
@@ -164,7 +164,7 @@ O projeto usa SQL Server. A connection string pode ser configurada via:
 - Variáveis de ambiente
 - Docker Compose
 
-## 📚 Próximos Passos
+## Próximos Passos
 
 Para expandir este template:
 
@@ -174,10 +174,6 @@ Para expandir este template:
 4. Adicione controllers na `API`
 5. Crie testes unitários
 
-## 🤝 Contribuindo
+## Contribuindo
 
 Este é um template base. Sinta-se livre para adaptar conforme suas necessidades.
-
-## 📄 Licença
-
-Este projeto é um template de exemplo.
